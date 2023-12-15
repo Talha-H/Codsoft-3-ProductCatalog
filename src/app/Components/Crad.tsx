@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FaStar } from "react-icons/fa6";
-import { checkOut } from "../api/route";
+// import { checkOut } from "../api/route";
 
 const Crad = () => {
   return (
@@ -33,13 +33,13 @@ const Crad = () => {
           <div className="card-actions justify-end">
             {/* <Link href={"/buyNow"}> */}
             <button
-              onClick={() => {
-                checkOut({
-                  lineItems: [
-                    { price: "price_1OMomYBZzoDUyyxVOqIPQlpL", quantity: 1 },
-                  ],
-                });
-              }}
+              // onClick={() => {
+              //   checkOut({
+              //     lineItems: [
+              //       { price: "price_1OMomYBZzoDUyyxVOqIPQlpL", quantity: 1 },
+              //     ],
+              //   });
+              // }}
               className="btn  opacity-80 text-black px-4 py-2 bg-white text-[18px] rounded-2xl hover:bg-red-500 hover:text-white border-slate-300"
             >
               Buy Now
